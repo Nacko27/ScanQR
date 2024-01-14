@@ -29,7 +29,11 @@ function QRCodeGenerator() {
       <div className="qr-code">
         <img className="qr-image" src={generateQRCode(qrData, qrSize)} alt="QR Code" />
       </div>
+      <div className="footer">
+        <p>Developed by <span className="developer">Nikhil</span></p>
     </div>
+    </div>
+    
   );
 }
 
